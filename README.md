@@ -1,7 +1,7 @@
 # mts2mp4cloneExif
 
 ハンディカムで撮影したMTSがGooglePhotosにアップできないものが現れたため、mp4に変換と同時にexif(CreateDateのみ)をコピーするバッチを作成。  
-ただし、MTSの撮影日時のタグはCreateDateではなく、DateTimeOriginalのようなので、そちらをmp4へコピーする
+ただし、MTSの撮影日時のタグはCreateDateではなく、DateTimeOriginalのようなので、それをmp4のCreateDateへコピーする
 
 ## Required
 - exiftool
