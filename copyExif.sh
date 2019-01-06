@@ -13,4 +13,4 @@ echo $time
 #write exiftool
 
 #ダブルコーテーション必須
-exiftool -$writeDateTag="$time" $2
+exiftool -overwrite_original -$writeDateTag="$time" $2
